@@ -1,0 +1,28 @@
+{
+  "name": "jenkins",
+  "version": "1.0.0",
+  "description": "Pruebas unitarias con Jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkcross05/PruebasUnitarias.git"
+  },
+  "keywords": [
+    "jenkins"
+  ],
+  "author": "Juan Pablo Mariaca S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darkcross05/PruebasUnitarias/issues"
+  },
+  "homepage": "https://github.com/darkcross05/PruebasUnitarias#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "request": "^2.83.0"
+  }
+}
