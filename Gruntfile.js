@@ -51,13 +51,13 @@ module.exports = function(grunt) {
       }]
     },
     uglify: {
-      files: [{
+      files: {
         expand: true,
-        cwd: 'grunt/js/*.js',
+        cwd: 'grunt/js',
         src: ['*.js', '!*.min.js'],
-        dest: 'grunt/js/',
+        dest: 'grunt/js',
         ext: '.min.js'
-      }]
+      }
     },
     clean: {
       //js: ['lib/js/*.js', '!lib/js/*.min.js'],
