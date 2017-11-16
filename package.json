@@ -35,6 +35,7 @@
     "grunt-contrib-watch": "^1.0.0"
   },
   "devDependencies": {
+    "load-grunt-tasks": "^3.5.2",
     "mochawesome": "^2.3.1"
   }
 }

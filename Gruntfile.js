@@ -1,5 +1,7 @@
 module.exports = function(grunt) {
 
+  require('load-grunt-tasks')(grunt);
+
   grunt.initConfig({
     // Aqui se declaran todas las tareas
     watch: {
@@ -77,6 +79,8 @@ module.exports = function(grunt) {
     }
   });
 
+  grunt.registerTask('default', []);
+
   //Registro de todas las tareas
   //
   //grunt.registerTask('default', ['concat']);
@@ -84,13 +88,13 @@ module.exports = function(grunt) {
 
   // Carga de las tareas
   //
-  grunt.loadNpmTasks('grunt-contrib-concat');
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-contrib-watch');
+  // grunt.loadNpmTasks('grunt-contrib-concat');
+  // grunt.loadNpmTasks('grunt-contrib-jshint');
+  // grunt.loadNpmTasks('grunt-contrib-uglify');
+  // grunt.loadNpmTasks('grunt-contrib-cssmin');
+  // grunt.loadNpmTasks('grunt-contrib-clean');
+  // grunt.loadNpmTasks('grunt-contrib-copy');
+  // grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Tarea por defecto
   //
